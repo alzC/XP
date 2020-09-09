@@ -252,3 +252,43 @@ main ul {
   list-style: none;
 }
 main ul .a{opacity:1;}
+
+#cr7{
+  background-color: transparent;
+  min-width: 70%;
+  display: flex;
+  justify-content: center;
+  background-image: url("cr7.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cr7 a{
+  width: 100%;
+}
+#box{
+  background-color: transparent;
+  min-width: 70%;
+  display: flex;
+  justify-content: center;
+  background-image: url("box.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#box a{
+  width: 100%;
+}
+#fitness{
+  background-color: transparent;
+  min-width: 70%;
+  display: flex;
+  justify-content: center;
+  background-image: url("fitness.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fitness a{
+  width: 100%;
+}
