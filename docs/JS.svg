@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<defs>
+	<path id="SVGID_1_" d="M638.8,427.3c-8.8,10.9-24,33-30.2,64.8c-8.6,44.2,5.8,78.7,8.8,85.5c2.8,6.4,14.8,32.5,42.6,54.8
+		c11.3,9,47.2,35.2,96.7,33.8c56.7-1.6,114.6-38.8,135.2-98.4c22.7-65.3-12.1-121-16.2-127.4c-3.7-5.7-39.4-58.8-106.8-66.6
+		c-9.2-1.1-48.6-4.7-88.8,18.2C672.9,396.1,655.2,407,638.8,427.3z"/>
+</defs>
+<clipPath id="SVGID_2_">
+	<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+</clipPath>
+<g style="clip-path:url(#SVGID_2_);">
+	<image style="overflow:visible;" width="900" height="400" xlink:href="JS.jpg"  transform="matrix(1 0 0 1 179.4084 327.831)">
+	</image>
+</g>
+</svg>

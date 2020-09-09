@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<g id="Calque_1">
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M706.9,946.5c-92.8-1.7-174.5-80.3-175.7-179.5c-1.2-101.5,82.6-183.7,178.7-183.9
+				c94.3-0.2,176.9,78.4,179.3,177C891.8,863.6,805.1,948.3,706.9,946.5z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_2_);">
+
+				<image style="overflow:visible;" width="900" height="900" xlink:href="WP.jpg"  transform="matrix(0.3977 0 0 0.4112 531.2778 580.338)">
+			</image>
+		</g>
+	</g>
+</g>
+<g id="Calque_2">
+</g>
+</svg>

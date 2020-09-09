@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand',sans-serif;
+}
+html::-webkit-scrollbar{
+  width: 10px;
+
+}
+html::-webkit-scrollbar-track{
+border-radius: 20px;
+  box-shadow: 5px 5px 10px #0d0d0d inset,
+              -5px -5px 10px #0B0B0E inset;
+              background:#4d4d4d;
+}
+html::-webkit-scrollbar-thumb{
+  border-radius:50px;
+  box-shadow:-5px -5px 10px #0d0d0d inset,
+             5px 5px 5px #4d4d4d inset;
+             background: #262626;
+}
+body{
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background: radial-gradient(ellipse at top left, rgba(222, 11, 70, 0.26) -160%, rgba(255, 255, 255, 0) 103%), -webkit-radial-gradient(center, ellipse cover, #0C1019 0%, #0B0B0E 100%);
+}
+.container-fluid{
+  max-width: 100%;
+  display:flex;
+  justify-content: center;
+  padding-top:5%;
+  
+}
+.testimonials{
+
+  position: relative;
+  max-width: 100%;
+  max-height: 90vh;
+  margin-bottom: 180px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent 70%, #0009) ;
+  box-reflect: below 1px linear-gradient(transparent 70%, #0009) ;
+}
+.testimonials .card{
+  position:relative;
+  width: 100%;
+  margin:0 auto ;
+  background: transparent;
+  padding: 60px 40px;
+  text-align: center;
+  overflow: hidden;
+
+}
+.testimonials .card .layer{
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 0;
+  width: 100%;
+  height:100%;
+  background: linear-gradient(#03a9f4,#e91ee3);
+   z-index: 1;
+  transition: 0.5s;
+}
+.testimonials .card:hover .layer{
+  border-radius: 20px 20px 0px;
+
+}
+.testimonials .card .JS{
+  background: linear-gradient(#FDC830,#F37335);
+  transition: 0.5s;
+}
+.testimonials .card .css{
+  background: linear-gradient(#11998e,#38ef7d);
+  transition: 0.5s;
+}
+.testimonials .card .WP{
+  background: linear-gradient(#E0EAFC,#CFDEF3);
+  transition: 0.5s;
+}
+.testimonials .card .PHP {
+  background: linear-gradient(#667db6,#0082c8,#0082c8,#667db6);
+  transition: 0.5s;
+}
+.testimonials .card:hover .layer{
+  top: 0;
+}
+.testimonials .card .content{
+  position: relative;
+  z-index: 2;
+}
+.testimonials .card .content ul li{
+  list-style: none;
+}
+.testimonials .card .content h1{
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+.testimonials .card .content p{
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.testimonials .card .content .imgBox {
+  width:200px;
+  height: 200px;
+  margin:0 auto 10px;
+  border-radius:50%;
+  overflow:hidden;
+  border:1px solid #0575E6;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  background: url(me.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.testimonials .card .content h2{
+  font-size: 18px;
+  color: white;
+
+}
+.testimonials .card .content h2 span{
+  color: #03a9f4;
+  font-size: 14px;
+  transition:0.5s;
+
+}
+.testimonials .card:hover .content h2 span{
+  color:#fff;
+}
+/* hover perso */
+
+.testimonials .card:hover .content p{
+  color: #333;transition: 0.6s;}
+  .testimonials #dev .card:hover .content p{
+    color: white;transition: 0.6s;}
+    .testimonials .card:hover .content .perso{
+      color: #333;transition: 0.6s;}
+.testimonials  #php .card:hover .content p {
+  color: white;transition: 0.6s;}
+.testimonials  #Wp .card:hover .content p {
+  color: #0082c8;transition: 0.6s;}
+
+
+.swiper-slide{
+
+border-radius: 20px 20px 0px;
+  background-position:center;
+  background-size:cover;
+  width: 350px;
+  min-height: 350px;
+  background: transparent;
+  margin: 0 20px;
+}
+.swiper-slide-shadow-left , .swiper-slide-shadow-top {
+  border-radius: 20px 20px 0px;
+}
+.circle {
+position: relative;
+
+  left: calc(50% - 60px);
+}
+
+.stroke{
+
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  fill:  #333;
+  stroke-width: 17px;
+  stroke-linecap:round;
+}
+.card:hover .stroke {
+
+  stroke-dashoffset: 80;
+  transition: 0.6s ease-out;
+}
+.card:hover #back{
+  stroke-dashoffset: 280;
+  transition: 0.6s ease-out;
+}
+.card:hover #style{
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+.card:hover #typescript{
+
+  stroke-dashoffset: 220;
+  transition: 0.6s ease-out;
+}
+
+.testimonials .card .content .circle #Calque_1{
+  position:absolute;
+  top:calc(-60.5% - 190px);
+  left: -79.5%;
+  color:#333;
+
+  width: 700px;
+  height: 700px;
+  z-index: 15;
+}
+.testimonials .card .content .circle #Calque_2{
+  position:absolute;
+  top:calc(-60.5% - 190px);
+  left: -79.50%;
+  color:#333;
+
+  width: 700px;
+  height: 700px;
+  z-index: 15;
+}
+.testimonials .card .content .circle #Calque_3{
+  position:absolute;
+  top:calc(-60.5% - 190px);
+  left: -79.50%;
+  color:#333;
+
+  width: 700px;
+  height: 700px;
+  z-index: 15;
+}
+.testimonials .card .content .circle #Calque_4{
+  position:absolute;
+  top:calc(-60.5% - 190px);
+  left: -79.50%;
+  color:#333;
+
+  width: 700px;
+  height: 700px;
+  z-index: 15;
+}
+/* MAIN */
+main{
+width: 100%;
+}
+main ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 84px;
+  font-weight: bold;
+  list-style: none;
+}
+main ul .a{opacity:1;}
