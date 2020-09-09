@@ -239,6 +239,12 @@
                                     </div>
           </div>
         </div>
+              <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-next a"></div>
+        <div class="swiper-button-prev a"></div>
+      </div>
         </div>
       </div>
 
@@ -260,10 +266,16 @@
         modifier: 1,
         slideShadows: true,
       },
-
+      pagination: {
+  el: '.swiper-pagination',
+        type: 'progressbar',
+},
+navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
         loop: true,
-
-    });
+      });
      var timeline = new TimelineMax({repeat:2000,repeatDelay:0.3});
     timeline.staggerFrom(".a",0.5,
      {opacity:0,onComplete:function(){
