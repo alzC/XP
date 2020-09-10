@@ -384,3 +384,22 @@ main ul .a{opacity:1;}
 #fitness a{
   width: 100%;
 }
+#joker{
+  background-color: transparent;
+  min-width: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("joker.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#joker a{
+  width: 100%;
+}
